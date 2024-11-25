@@ -1,0 +1,50 @@
+current directory: /home/fitraul/projects/learning-platform/backend/vendor/bundle/ruby/3.3.0/gems/ed25519-1.3.0/ext/ed25519_ref10
+/home/fitraul/.local/share/mise/installs/ruby/3.3.6/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/fitraul/projects/learning-platform/backend/vendor/bundle/ruby/3.3.0/gems/ed25519-1.3.0/ext/ed25519_ref10
+make DESTDIR\= sitearchdir\=./.gem.20241119-10894-idt08l sitelibdir\=./.gem.20241119-10894-idt08l clean
+
+current directory: /home/fitraul/projects/learning-platform/backend/vendor/bundle/ruby/3.3.0/gems/ed25519-1.3.0/ext/ed25519_ref10
+make DESTDIR\= sitearchdir\=./.gem.20241119-10894-idt08l sitelibdir\=./.gem.20241119-10894-idt08l
+compiling ed25519_ref10.c
+In file included from /home/fitraul/.local/share/mise/installs/ruby/3.3.6/include/ruby-3.3.0/ruby/ruby.h:15,
+                 from /home/fitraul/.local/share/mise/installs/ruby/3.3.6/include/ruby-3.3.0/ruby.h:38,
+                 from ed25519_ref10.c:1:
+/home/fitraul/.local/share/mise/installs/ruby/3.3.6/include/ruby-3.3.0/ruby/internal/config.h:139:50: warning: __VA_OPT__ is not available until C++2a
+  139 | # define RBIMPL_TEST2(...)          RBIMPL_TEST3(__VA_OPT__(,),1,0,0)
+      |                                                  ^
+In file included from /home/fitraul/.local/share/mise/installs/ruby/3.3.6/include/ruby-3.3.0/ruby/ruby.h:46,
+                 from /home/fitraul/.local/share/mise/installs/ruby/3.3.6/include/ruby-3.3.0/ruby.h:38,
+                 from ed25519_ref10.c:1:
+/home/fitraul/.local/share/mise/installs/ruby/3.3.6/include/ruby-3.3.0/ruby/internal/scan_args.h:502:41: warning: __VA_OPT__ is not available until C++2a
+  502 |         (rb_scan_args)(argc, argvp, fmt __VA_OPT__(, __VA_ARGS__)))
+      |                                         ^
+/home/fitraul/.local/share/mise/installs/ruby/3.3.6/include/ruby-3.3.0/ruby/internal/scan_args.h:510:53: warning: __VA_OPT__ is not available until C++2a
+  510 |         (rb_scan_args_kw)(kw_flag, argc, argvp, fmt __VA_OPT__(, __VA_ARGS__)))
+      |                                                     ^
+ed25519_ref10.c: In function ‘Init_ed25519_ref10’:
+ed25519_ref10.c:12:6: warning: old-style function definition [-Wold-style-definition]
+   12 | void Init_ed25519_ref10()
+      |      ^~~~~~~~~~~~~~~~~~
+ed25519_ref10.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling fe.c
+compiling ge.c
+compiling keypair.c
+compiling open.c
+compiling sc_muladd.c
+compiling sc_reduce.c
+compiling sha512.c
+compiling sign.c
+compiling verify.c
+linking shared-object ed25519_ref10.so
+
+current directory: /home/fitraul/projects/learning-platform/backend/vendor/bundle/ruby/3.3.0/gems/ed25519-1.3.0/ext/ed25519_ref10
+make DESTDIR\= sitearchdir\=./.gem.20241119-10894-idt08l sitelibdir\=./.gem.20241119-10894-idt08l install
+/usr/bin/install -c -m 0755 ed25519_ref10.so ./.gem.20241119-10894-idt08l
+
+current directory: /home/fitraul/projects/learning-platform/backend/vendor/bundle/ruby/3.3.0/gems/ed25519-1.3.0/ext/ed25519_ref10
+make DESTDIR\= sitearchdir\=./.gem.20241119-10894-idt08l sitelibdir\=./.gem.20241119-10894-idt08l clean
